@@ -1,2 +1,1 @@
-# Kappe
-Kappe
+# Easy sketch

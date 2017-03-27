@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.Footer {
+    display: flex;
+    height: 14vh;
+    padding: 2vh 10vw;
+    justify-content: space-between;
+    background-color: $colorDarkGrey;
+
+    .contacts {
+        ul {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        span,
+        a {
+            font-size: 1em;
+            line-height: 2em;
+        }
+
+        span {
+            color: $colorWhite;
+            font-weight: 800;
+            margin-right: 10px;
+        }
+
+        a {
+            color: $colorWhite;
+            opacity: .8;
+            transition: opacity .5s ease;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .logo {
+        line-height: 2.6em;
+        font-size: 2.2em;
+        color: $colorWhite;
+    }
+}

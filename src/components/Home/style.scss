@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.Home {
+    
+    h1,
+    .occupation {
+        text-transform: uppercase;
+        color: $colorBlack;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 30px auto;
+        font-size: 3.8em;
+        font-weight: 800;
+        letter-spacing: .1em;
+    }
+
+    .occupation {
+        font-weight: 400;
+        font-size: 1.8em;
+        font-style: italic;
+        letter-spacing: .05em;
+    }
+}
