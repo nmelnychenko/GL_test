@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 render(
       <Router history={browserHistory}>
           <Route path='/' component={App}>
-              <IndexRoute path='/' component={Home} />
+              <IndexRoute component={Home} />
               <Route path='/about' component={About} />
               <Route path='/skills' component={Skills} />
               <Route path='/contact' component={Contact} />
