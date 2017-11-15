@@ -40,6 +40,7 @@
             height: 40px;
             margin-bottom: 20px;
             padding-left: 10px;
+            border: 1px solid $colorDarkGrey;
         }
 
         textarea {
@@ -47,6 +48,8 @@
             margin-bottom: 20px;
             padding-top: 10px;
             padding-left: 10px;
+            resize: none;
+            border: 1px solid $colorDarkGrey;
         }
 
         button {
